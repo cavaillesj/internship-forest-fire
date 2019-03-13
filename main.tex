@@ -1,0 +1,70 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Summary}
+%\author{Jérôme Cavaillès}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{todonotes}
+
+\begin{document}
+
+\maketitle
+
+
+
+
+\section{Deterministic model}
+
+\subsection{First equation}
+\[
+%\lbrace
+\begin{array}{rcl}
+\frac{dN}{dt} & = & gN(1-\frac{N}{K})(\frac{N}{A}-1) \\
+\frac{dW}{dt} & = & mN-dW \\
+\end{array}
+%\right
+\]
+
+\subsection{Adimensionnalisation}
+\[
+%\lbrace
+\begin{array}{rcl}
+\frac{dN}{dt} & = & N(1-N)(N-a) \\
+\frac{dW}{dt} & = & mN-W \\
+\end{array}
+%\right
+\]
+With $a\in(0,1)$.
+
+\subsubsection{Equilibrium}
+$(N = 0, W = 0) $ stable \\
+$(N = 1, W = m) $ stable \\
+$(N = a, W = am) $ unstable \\
+
+\subsection{Visualisation}
+
+\subsubsection{Times series with parameter}
+\todo{plot}
+
+\newpage
+\section{With fire}
+
+\subsection{definition of the fire}
+
+
+
+%\begin{figure}[h!]
+%\centering
+%\includegraphics[scale=1.7]{universe}
+%\caption{The Universe}
+%\label{fig:universe}
+%\end{figure}
+
+
+%\bibliographystyle{plain}
+%\bibliography{references}
+
+
+\end{document}
